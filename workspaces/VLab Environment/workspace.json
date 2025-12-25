@@ -1,0 +1,23 @@
+{
+  "description": "The Skillfirst Learn Virtual Lab environment, featuring ROS2 and Gazebo (Version 2) hosted on GHCR.",
+  "docker_registry": "https://index.docker.io/v1/", 
+  "image_src": "vlab.png", 
+  "categories": [
+    "Development",
+    "Simulation"
+  ],
+  "friendly_name": "ROS2 Gazebo V2 (GHCR)", 
+  "architecture": [
+    "amd64" 
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x", 
+      "image": "ghcr.io/skillfirstlearn/kasm-ros2-gz_v2:humble", 
+      "uncompressed_size_mb": 7870, 
+      "available_tags": [
+        "humble"
+      ]
+    }
+  ]
+}
