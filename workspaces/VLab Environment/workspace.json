@@ -1,6 +1,5 @@
 {
-  "description": "The Skillfirst Learn Virtual Lab environment, featuring ROS2 and Gazebo (Version 2) hosted on GHCR.",
-  "docker_registry": "https://index.docker.io/v1/", 
+  "description": "The Skillfirst Learn Virtual Lab environment, featuring ROS2 and Gazebo (Version 2) hosted privately on GHCR.",
   "image_src": "vlab.png", 
   "categories": [
     "Development",
@@ -19,5 +18,11 @@
         "humble"
       ]
     }
-  ]
+  ],
+  "docker_registry_attributes": { 
+    "docker_registry": "ghcr.io", 
+    "username": "", 
+    "password": "",  
+    "email": ""      
+  }
 }
