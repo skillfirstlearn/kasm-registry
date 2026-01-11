@@ -1,0 +1,30 @@
+{
+  "description": "SFL PBL Demo workspace featuring Unitree Go2 with ROS2 and Gazebo for robotics simulation. Designed for hands-on Project-Based Learning (PBL) in autonomous robotics.
+",
+  "image_src": "sfl.png",
+  "categories": [
+    "Robotics",
+    "Simulation",
+    "PBL"
+  ],
+  "friendly_name": "SFL vLab Demo",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "latest",
+      "image": "ghcr.io/skillfirstlearn/sfl-vlab-demo:latest",
+      "uncompressed_size_mb": 7590,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ],
+  "docker_registry_attributes": {
+    "docker_registry": "ghcr.io",
+    "username": "",
+    "password": "",
+    "email": ""
+  }
+}
