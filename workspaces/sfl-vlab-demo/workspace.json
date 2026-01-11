@@ -12,7 +12,7 @@
   ],
   "compatibility": [
     {
-      "version": "latest",
+      "version": "1.18.x",
       "image": "ghcr.io/skillfirstlearn/sfl-vlab-demo:latest",
       "uncompressed_size_mb": 7590,
       "available_tags": [
