@@ -1,6 +1,6 @@
 {
   "description": "SFL PBL Demo workspace featuring Unitree Go2 with ROS2 and Gazebo for robotics simulation. Designed for hands-on Project-Based Learning in autonomous robotics.",
-  "image_src": "sfl.png",
+  "image_src": "sfl_logo.png",
   "categories": [
     "Robotics",
     "Simulation",
