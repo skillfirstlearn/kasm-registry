@@ -13,11 +13,11 @@
   ],
   "compatibility": [
     {
-      "version": "1.18.9",
+      "version": "1.18.x",
       "image": "ghcr.io/skillfirstlearn/iot-mqtt-security-workshop:latest",
       "uncompressed_size_mb": 4700,
       "available_tags": [
-        "latest",
+        "latest"
       ]
     }
   ],
@@ -27,21 +27,4 @@
     "password": "",
     "email": ""
   },
-  "run_config": {
-    "hostname": "iot-mqtt-workshop"
-  },
-  "exec_config": {
-    "first_launch": {
-      "user": "kasm-user",
-      "privileged": false,
-      "cap_add": [
-        "NET_RAW",
-        "NET_ADMIN"
-      ]
-    }
-  },
-  "environment_variables": {
-    "TASK_ID": "1"
-  },
-  "notes": "This workspace requires TASK_ID environment variable (1-4) to launch specific lab tasks. Configure 4 separate Kasm workspaces with TASK_ID=1, 2, 3, and 4 respectively. Each task focuses on different MQTT security aspects: installation, traffic analysis, authentication, and TLS encryption."
-}
+  
