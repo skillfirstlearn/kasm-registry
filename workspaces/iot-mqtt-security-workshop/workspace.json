@@ -7,18 +7,17 @@
     "Networking",
     "Education"
   ],
-  "friendly_name": "IoT Security Workshop 4 — MQTT Security",
+  "friendly_name": "IoT Security Workshop 4 - MQTT Security",
   "architecture": [
     "amd64"
   ],
   "compatibility": [
     {
-      "version": "1.18.x",
+      "version": "1.18.9",
       "image": "ghcr.io/skillfirstlearn/iot-mqtt-security-workshop:latest",
       "uncompressed_size_mb": 4700,
       "available_tags": [
         "latest",
-        "1.0.0"
       ]
     }
   ],
@@ -33,7 +32,7 @@
   },
   "exec_config": {
     "first_launch": {
-      "user": "root",
+      "user": "kasm-user",
       "privileged": false,
       "cap_add": [
         "NET_RAW",
