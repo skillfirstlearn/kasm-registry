@@ -1,1 +1,30 @@
-
+{
+  "description": "Essential Python for Robotics - Practice Lab Environment with ROS2/Gazebo integration, featuring interactive Python learning modules and a comprehensive capstone project.",
+  "image_src": "vlab.png",
+  "categories": [
+    "Education",
+    "Python",
+    "Robotics",
+    "Development"
+  ],
+  "friendly_name": "Essential Python for Robotics",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "ghcr.io/skillfirstlearn/essential-python-for-robotics:latest",
+      "uncompressed_size_mb": 5040,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ],
+  "docker_registry_attributes": {
+    "docker_registry": "ghcr.io",
+    "username": "",
+    "password": "",
+    "email": ""
+  }
+}
