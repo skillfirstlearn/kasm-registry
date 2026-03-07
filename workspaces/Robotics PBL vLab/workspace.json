@@ -1,1 +1,31 @@
-
+{
+  "description": "Robotics PBL vLab workspace featuring ROS2 Humble, Gazebo simulation, and Unitree Go2 robot in a simple hospital environment. Designed for Project-Based Learning: Building Real-World Robots (Guide Dog and Security Patrol).",
+  "image_src": "sfl_logo.png",
+  "categories": [
+    "Robotics",
+    "Simulation",
+    "PBL",
+    "ROS2",
+    "Education"
+  ],
+  "friendly_name": "PBL Go2 vLab",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "ghcr.io/skillfirstlearn/pbl-go2-vlab:latest",
+      "uncompressed_size_mb": 8000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ],
+  "docker_registry_attributes": {
+    "docker_registry": "ghcr.io",
+    "username": "",
+    "password": "",
+    "email": ""
+  }
+}
