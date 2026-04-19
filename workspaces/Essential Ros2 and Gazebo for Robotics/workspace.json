@@ -1,1 +1,31 @@
-
+{
+  "description": "Essential ROS 2 & Gazebo for Robotics — Kasm-style practice lab: four step-based modules (nodes/topics, rclpy, TurtleBot 3 in Gazebo, capstone /cmd_vel logic), ROS 2 Humble, Gazebo simulation, VS Code workspace, and Tkinter lab instructions.",
+  "image_src": "logo-dark.png",
+  "categories": [
+    "Education",
+    "ROS 2",
+    "Gazebo",
+    "Robotics",
+    "Development"
+  ],
+  "friendly_name": "Essential ROS 2 & Gazebo for Robotics",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "ghcr.io/skillfirstlearn/robotics-ros2-gazebo-intro:latest",
+      "uncompressed_size_mb": 7250,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ],
+  "docker_registry_attributes": {
+    "docker_registry": "ghcr.io",
+    "username": "",
+    "password": "",
+    "email": ""
+  }
+}
