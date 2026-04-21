@@ -14,7 +14,7 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "ghcr.io/skillfirstlearn/essential-python-for-robotics:latest",
+      "image": "ghcr.io/skillfirstlearn/robotics-course-materials:latest",
       "uncompressed_size_mb": 5040,
       "available_tags": [
         "latest"
